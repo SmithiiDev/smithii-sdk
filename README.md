@@ -158,6 +158,21 @@ All sensitive config (RPC URLs, private keys, Jito UUID) is passed via construct
 
 ---
 
+## Use with AI agents
+
+We publish a Claude Code / agent skill so any AI assistant (Claude Code, Cursor,
+Windsurf, etc.) can integrate this SDK correctly without hallucinating method
+signatures or limits.
+
+→ [SmithiiDev/smithii-sdk-skill](https://github.com/SmithiiDev/smithii-sdk-skill)
+
+The skill contains the full API reference, on-chain invariants, and runnable
+examples for every client. Install it once and your agent will know how to
+build pump.fun bundlers, anti-MEV bots, token creators, multisenders, and the
+rest of the Smithii toolset.
+
+---
+
 ## Links
 
 - **Web app**: [tools.smithii.io](https://tools.smithii.io)
