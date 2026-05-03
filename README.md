@@ -10,6 +10,18 @@
 
 ---
 
+## Let your Agent handle it
+
+Paste this into Claude Code, Cursor, or any agent that supports the [agent skills standard](https://agentskills.io):
+
+```
+add smithii-sdk skill https://raw.githubusercontent.com/SmithiiDev/smithii-sdk-skill/main/SKILL.md
+```
+
+Your agent will install the [Smithii SDK skill](https://github.com/SmithiiDev/smithii-sdk-skill) and immediately know how to build pump.fun bundlers, anti-MEV bots, token creators, multisenders, and the rest of the toolset — without hallucinating method signatures or limits.
+
+---
+
 ## What you can build
 
 - **Pump.fun bundler bots** — create a token and snipe it with up to 16 wallets atomically in the same block via Jito
@@ -155,21 +167,6 @@ All sensitive config (RPC URLs, private keys, Jito UUID) is passed via construct
 | Solana | `useWallet()` from `@solana/wallet-adapter-react`, or a raw `Keypair` |
 | EVM | `viem.WalletClient` or `privateKeyToAccount` |
 | SUI | `useWallet()` from `@suiet/wallet-kit` |
-
----
-
-## Use with AI agents
-
-We publish a Claude Code / agent skill so any AI assistant (Claude Code, Cursor,
-Windsurf, etc.) can integrate this SDK correctly without hallucinating method
-signatures or limits.
-
-→ [SmithiiDev/smithii-sdk-skill](https://github.com/SmithiiDev/smithii-sdk-skill)
-
-The skill contains the full API reference, on-chain invariants, and runnable
-examples for every client. Install it once and your agent will know how to
-build pump.fun bundlers, anti-MEV bots, token creators, multisenders, and the
-rest of the Smithii toolset.
 
 ---
 
