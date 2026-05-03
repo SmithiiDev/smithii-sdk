@@ -15,7 +15,7 @@
 Paste this into Claude Code, Cursor, or any agent that supports the [agent skills standard](https://agentskills.io):
 
 ```
-add smithii-sdk skill https://raw.githubusercontent.com/SmithiiDev/smithii-sdk-skill/main/SKILL.md
+add smithii-sdk skill https://tools.smithii.io/skill/skill.md
 ```
 
 Your agent will install the [Smithii SDK skill](https://github.com/SmithiiDev/smithii-sdk-skill) and immediately know how to build pump.fun bundlers, anti-MEV bots, token creators, multisenders, and the rest of the toolset — without hallucinating method signatures or limits.
